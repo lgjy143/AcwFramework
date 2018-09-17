@@ -5,7 +5,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace Acw.Core.Microsoft.Extensions
+namespace Acw.Core.Microsoft.Extensions.DependencyInjection
 {
     public static class ServiceCollectionCommonExtensions
     {

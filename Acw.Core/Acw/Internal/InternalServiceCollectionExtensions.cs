@@ -13,7 +13,7 @@ namespace Acw.Core.Acw.Internal
         {
             services.AddOptions();
             services.AddLogging();
-            //services.AddLocalization();
+            services.AddLocalization();
         }
 
         internal static void AddCoreAcwServices(this IServiceCollection services, IAcwApplication AcwApplication)
