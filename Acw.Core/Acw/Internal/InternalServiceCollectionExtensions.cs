@@ -1,7 +1,6 @@
 ﻿using Acw.Core.Acw.Configuration;
 using Acw.Core.Acw.Modularity;
 using Acw.Core.Acw.Reflection;
-using Acw.Core.Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 

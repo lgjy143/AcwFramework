@@ -1,10 +1,8 @@
 ﻿using Acw.Core.Acw;
 using JetBrains.Annotations;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 
-namespace Acw.Core.System.Collections.Generic
+namespace System.Collections.Generic
 {
     public static class AcwListExtensions
     {

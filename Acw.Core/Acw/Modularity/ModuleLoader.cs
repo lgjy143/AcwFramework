@@ -1,10 +1,8 @@
 ﻿using Acw.Core.Acw.Modularity.PlugIns;
-using Acw.Core.System.Collections.Generic;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Acw.Core.Acw.Modularity
 {
@@ -96,6 +94,14 @@ namespace Acw.Core.Acw.Modularity
             var context = new ServiceConfigurationContext(services);
             services.AddSingleton(context);
 
+            foreach (var module in modules)
+            {
+                if (module.Instance is AcwModule acwModule)
+                {
+                    acwModule.ServiceConfigurationContext = context;
+                }
+            }
+
             //PreConfigureServices
             foreach (var module in modules.Where(m => m.Instance is IPreConfigureServices))
             {
@@ -105,6 +111,14 @@ namespace Acw.Core.Acw.Modularity
             //ConfigureServices
             foreach (var module in modules)
             {
+                if (module.Instance is AcwModule acwModule)
+                {
+                    if (!acwModule.SkipAutoServiceRegistration)
+                    {
+                        services.AddAssembly(module.Type.Assembly);
+                    }
+                }
+
                 module.Instance.ConfigureServices(context);
             }
 
@@ -112,6 +126,14 @@ namespace Acw.Core.Acw.Modularity
             foreach (var module in modules.Where(m => m.Instance is IPostConfigureServices))
             {
                 ((IPostConfigureServices)module.Instance).PostConfigureServices(context);
+            }
+
+            foreach (var module in modules)
+            {
+                if (module.Instance is AcwModule acwModule)
+                {
+                    acwModule.ServiceConfigurationContext = null;
+                }
             }
         }
 

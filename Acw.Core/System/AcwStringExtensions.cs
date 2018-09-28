@@ -1,5 +1,4 @@
 ﻿using Acw.Core.Acw;
-using Acw.Core.System.Collections.Generic;
 using JetBrains.Annotations;
 using System;
 using System.Collections.Generic;
@@ -7,7 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Acw.Core.System
+namespace System
 {
     public static class AcwStringExtensions
     {

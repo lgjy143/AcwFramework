@@ -12,7 +12,6 @@ namespace SimpleConsoleDemo
         {
             using (var application = AcwApplicationFactory.Create<MyConsoleModule>(options =>
             {
-
             }))
             {
                 application.Initialize();
@@ -27,7 +26,6 @@ namespace SimpleConsoleDemo
 
                 Console.ReadLine();
             }
-            //Console.WriteLine("Hello World!");
         }
     }
     public class MyConsoleModule : AcwModule

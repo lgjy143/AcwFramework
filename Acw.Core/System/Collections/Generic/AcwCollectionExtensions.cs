@@ -1,10 +1,8 @@
 ﻿using Acw.Core.Acw;
 using JetBrains.Annotations;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 
-namespace Acw.Core.System.Collections.Generic
+namespace System.Collections.Generic
 {
     /// <summary>
     /// Checks whatever given collection object is null or has no item.

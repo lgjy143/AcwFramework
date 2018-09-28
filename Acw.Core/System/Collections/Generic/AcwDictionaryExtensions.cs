@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
+﻿using System.Collections.Concurrent;
 
-namespace Acw.Core.System.Collections.Generic
+namespace System.Collections.Generic
 {
     /// <summary>
     /// Extension methods for Dictionary.

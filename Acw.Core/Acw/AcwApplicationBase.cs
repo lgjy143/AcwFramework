@@ -1,8 +1,6 @@
 ﻿using Acw.Core.Acw.DependencyInjection;
 using Acw.Core.Acw.Internal;
 using Acw.Core.Acw.Modularity;
-using Acw.Core.Microsoft.Extensions;
-using Acw.Core.Microsoft.Extensions.DependencyInjection;
 using JetBrains.Annotations;
 using Microsoft.Extensions.DependencyInjection;
 using System;

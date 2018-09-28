@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Acw.Core.System
+﻿namespace System
 {
     /// <summary>
     /// Extension methods for <see cref="IComparable{T}"/>.

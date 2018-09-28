@@ -1,8 +1,7 @@
 ﻿using Acw.Core.Acw.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Acw.Core.Microsoft.Extensions.DependencyInjection
+namespace Microsoft.Extensions.DependencyInjection
 {
     public static class ServiceCollectionRegistrationActionExtensions
     {

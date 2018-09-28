@@ -1,13 +1,10 @@
 ﻿using Acw.Core.Acw.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
-namespace Acw.Core.Microsoft.Extensions.DependencyInjection
+namespace Microsoft.Extensions.DependencyInjection
 {
-   public static class ServiceCollectionObjectAccessorExtensions
+    public static class ServiceCollectionObjectAccessorExtensions
     {
         public static ObjectAccessor<T> TryAddObjectAccessor<T>(this IServiceCollection services)
         {

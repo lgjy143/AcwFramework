@@ -1,11 +1,10 @@
 ﻿using Acw.Core.Acw;
 using JetBrains.Annotations;
-using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
 using System.Reflection;
 
-namespace Acw.Core.Microsoft.Extensions.DependencyInjection
+namespace Microsoft.Extensions.DependencyInjection
 {
     public static class ServiceCollectionCommonExtensions
     {
