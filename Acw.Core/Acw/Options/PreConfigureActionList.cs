@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Acw.Core.Acw.Options
+namespace Acw.Options
 {
     public class PreConfigureActionList<TOptions> : List<Action<TOptions>>
     {

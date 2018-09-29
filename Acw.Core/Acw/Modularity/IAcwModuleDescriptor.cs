@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace Acw.Core.Acw.Modularity
+namespace Acw.Modularity
 {
     public interface IAcwModuleDescriptor
     {

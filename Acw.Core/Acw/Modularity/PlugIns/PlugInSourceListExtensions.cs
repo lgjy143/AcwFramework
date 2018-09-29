@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Acw.Core.Acw.Modularity.PlugIns
+namespace Acw.Modularity.PlugIns
 {
     public static class PlugInSourceListExtensions
     {

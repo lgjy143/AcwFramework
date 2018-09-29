@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Acw.Core.Acw.DependencyInjection
+namespace Acw.DependencyInjection
 {
     public class DisableConventionalRegistrationAttribute : Attribute
     {

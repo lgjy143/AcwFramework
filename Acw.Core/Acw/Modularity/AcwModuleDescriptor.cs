@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Reflection;
 
-namespace Acw.Core.Acw.Modularity
+namespace Acw.Modularity
 {
     public class AcwModuleDescriptor : IAcwModuleDescriptor
     {

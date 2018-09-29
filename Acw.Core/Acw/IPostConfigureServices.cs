@@ -1,6 +1,6 @@
-﻿using Acw.Core.Acw.Modularity;
+﻿using Acw.Modularity;
 
-namespace Acw.Core.Acw
+namespace Acw
 {
     public interface IPostConfigureServices
     {

@@ -1,7 +1,7 @@
 ﻿using JetBrains.Annotations;
 using System;
 
-namespace Acw.Core.Acw.Modularity.PlugIns
+namespace Acw.Modularity.PlugIns
 {
     public interface IPlugInSource
     {

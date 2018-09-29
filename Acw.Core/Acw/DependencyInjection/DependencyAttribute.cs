@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Acw.Core.Acw.DependencyInjection
+namespace Acw.DependencyInjection
 {
     public class DependencyAttribute : Attribute
     {

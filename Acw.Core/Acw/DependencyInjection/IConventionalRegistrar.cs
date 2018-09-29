@@ -2,7 +2,7 @@
 using System;
 using System.Reflection;
 
-namespace Acw.Core.Acw.DependencyInjection
+namespace Acw.DependencyInjection
 {
     public interface IConventionalRegistrar
     {

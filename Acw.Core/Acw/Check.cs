@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Acw.Core.Acw
+namespace Acw
 {
     [DebuggerStepThrough]
     public static class Check

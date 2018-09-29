@@ -1,4 +1,4 @@
-﻿using Acw.Core.Acw.Reflection;
+﻿using Acw.Reflection;
 using JetBrains.Annotations;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.Loader;
 
-namespace Acw.Core.Acw.Modularity.PlugIns
+namespace Acw.Modularity.PlugIns
 {
     public class FolderPlugInSource : IPlugInSource
     {

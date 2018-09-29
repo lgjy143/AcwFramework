@@ -1,9 +1,9 @@
-﻿using Acw.Core.Acw.Modularity.PlugIns;
+﻿using Acw.Modularity.PlugIns;
 using JetBrains.Annotations;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Acw.Core.Acw.Modularity
+namespace Acw.Modularity
 {
     public interface IModuleLoader
     {

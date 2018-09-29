@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace Acw.Core.Acw.Collections
+namespace Acw.Collections
 {
     /// <summary>
     /// A shortcut for <see cref="TypeList{TBaseType}"/> to use object as base type.

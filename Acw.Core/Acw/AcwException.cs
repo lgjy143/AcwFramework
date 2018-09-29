@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Acw.Core.Acw
+namespace Acw
 {
     public class AcwException : Exception
     {

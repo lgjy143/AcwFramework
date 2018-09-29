@@ -1,7 +1,7 @@
 ﻿using JetBrains.Annotations;
 using System;
 
-namespace Acw.Core.Acw.Modularity
+namespace Acw.Modularity
 {
     public interface IDependedTypesProvider
     {

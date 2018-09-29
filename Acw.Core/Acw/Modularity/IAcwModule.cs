@@ -1,6 +1,6 @@
-﻿using Acw.Core.Acw.DependencyInjection;
+﻿using Acw.DependencyInjection;
 
-namespace Acw.Core.Acw.Modularity
+namespace Acw.Modularity
 {
     public interface IAcwModule : ISingletonDependency
     {

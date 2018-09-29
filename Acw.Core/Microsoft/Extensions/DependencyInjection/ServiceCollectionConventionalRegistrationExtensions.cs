@@ -1,4 +1,4 @@
-﻿using Acw.Core.Acw.DependencyInjection;
+﻿using Acw.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Reflection;

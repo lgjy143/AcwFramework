@@ -1,4 +1,4 @@
-﻿namespace Acw.Core.Acw.DependencyInjection
+﻿namespace Acw.DependencyInjection
 {
     public interface ISingletonDependency
     {

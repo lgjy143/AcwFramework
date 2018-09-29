@@ -1,6 +1,6 @@
-﻿using Acw.Core.Acw;
-using Acw.Core.Acw.DependencyInjection;
-using Acw.Core.Acw.Modularity;
+﻿using Acw;
+using Acw.DependencyInjection;
+using Acw.Modularity;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 

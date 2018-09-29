@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 
-namespace Acw.Core.Acw.Reflection
+namespace Acw.Reflection
 {
     public class TypeFinder : ITypeFinder
     {

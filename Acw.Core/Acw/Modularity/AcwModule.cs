@@ -3,7 +3,7 @@ using System.Reflection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Acw.Core.Acw.Modularity
+namespace Acw.Modularity
 {
     public abstract class AcwModule :
         IAcwModule,

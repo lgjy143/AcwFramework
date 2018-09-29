@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Acw.Core.Acw.Modularity.PlugIns
+namespace Acw.Modularity.PlugIns
 {
     public class PlugInSourceList : List<IPlugInSource>
     {

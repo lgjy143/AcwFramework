@@ -1,6 +1,6 @@
 ﻿using JetBrains.Annotations;
 
-namespace Acw.Core.Acw.DependencyInjection
+namespace Acw.DependencyInjection
 {
     public class ObjectAccessor<T> : IObjectAccessor<T>
     {

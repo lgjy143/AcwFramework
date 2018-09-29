@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.Loader;
 
-namespace Acw.Core.Acw.Reflection
+namespace Acw.Reflection
 {
     internal static class AssemblyHelper
     {

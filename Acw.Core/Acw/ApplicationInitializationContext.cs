@@ -1,8 +1,8 @@
-﻿using Acw.Core.Acw.DependencyInjection;
+﻿using Acw.DependencyInjection;
 using JetBrains.Annotations;
 using System;
 
-namespace Acw.Core.Acw
+namespace Acw
 {
     public class ApplicationInitializationContext : IServiceProviderAccessor
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Acw.Core.Acw.DependencyInjection
+namespace Acw.DependencyInjection
 {
     internal class ConventionalRegistrarList : List<IConventionalRegistrar>
     {

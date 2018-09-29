@@ -1,6 +1,6 @@
-﻿using Acw.Core.Acw.Collections;
+﻿using Acw.Collections;
 
-namespace Acw.Core.Acw.Modularity
+namespace Acw.Modularity
 {
     public class ModuleLifecycleOptions
     {

@@ -1,10 +1,10 @@
-﻿using Acw.Core.Acw.Configuration;
-using Acw.Core.Acw.Modularity;
-using Acw.Core.Acw.Reflection;
+﻿using Acw.Configuration;
+using Acw.Modularity;
+using Acw.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
-namespace Acw.Core.Acw.Internal
+namespace Acw.Internal
 {
     internal static class InternalServiceCollectionExtensions
     {

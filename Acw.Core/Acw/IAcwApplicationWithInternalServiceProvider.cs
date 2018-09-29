@@ -1,4 +1,4 @@
-﻿namespace Acw.Core.Acw
+﻿namespace Acw
 {
     public interface IAcwApplicationWithInternalServiceProvider : IAcwApplication
     {

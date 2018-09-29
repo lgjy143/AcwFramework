@@ -1,4 +1,4 @@
-﻿using Acw.Core.Acw.DependencyInjection;
+﻿using Acw.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Acw.Core.Acw.Modularity
+namespace Acw.Modularity
 {
     public class ModuleManager : IModuleManager, ISingletonDependency
     {

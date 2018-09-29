@@ -1,9 +1,9 @@
-﻿using Acw.Core.Acw.Modularity;
+﻿using Acw.Modularity;
 using JetBrains.Annotations;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Acw.Core.Acw
+namespace Acw
 {
     public class AcwApplicationFactory
     {

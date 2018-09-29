@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.Loader;
 
-namespace Acw.Core.Acw.Modularity.PlugIns
+namespace Acw.Modularity.PlugIns
 {
     public class FilePlugInSource : IPlugInSource
     {

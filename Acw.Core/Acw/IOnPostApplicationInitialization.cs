@@ -1,6 +1,6 @@
 ﻿using JetBrains.Annotations;
 
-namespace Acw.Core.Acw
+namespace Acw
 {
     public interface IOnPostApplicationInitialization
     {

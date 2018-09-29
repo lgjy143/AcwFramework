@@ -1,8 +1,8 @@
-﻿using Acw.Core.Acw.Modularity.PlugIns;
+﻿using Acw.Modularity.PlugIns;
 using JetBrains.Annotations;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Acw.Core.Acw
+namespace Acw
 {
     public class AcwApplicationCreationOptions
     {

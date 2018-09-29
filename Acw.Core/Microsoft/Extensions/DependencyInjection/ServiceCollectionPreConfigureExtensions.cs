@@ -1,5 +1,5 @@
-﻿using Acw.Core.Acw.DependencyInjection;
-using Acw.Core.Acw.Options;
+﻿using Acw.DependencyInjection;
+using Acw.Options;
 using System;
 
 namespace Microsoft.Extensions.DependencyInjection

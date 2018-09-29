@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Acw.Core.Acw.Reflection
+namespace Acw.Reflection
 {
     /// <summary>
     /// Used to get types in the application.

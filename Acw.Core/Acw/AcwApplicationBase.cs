@@ -1,12 +1,12 @@
-﻿using Acw.Core.Acw.DependencyInjection;
-using Acw.Core.Acw.Internal;
-using Acw.Core.Acw.Modularity;
+﻿using Acw.DependencyInjection;
+using Acw.Internal;
+using Acw.Modularity;
 using JetBrains.Annotations;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 
-namespace Acw.Core.Acw
+namespace Acw
 {
     public abstract class AcwApplicationBase: IAcwApplication
     {

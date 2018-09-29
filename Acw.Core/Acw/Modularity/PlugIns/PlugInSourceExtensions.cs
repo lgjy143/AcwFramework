@@ -2,7 +2,7 @@
 using System;
 using System.Linq;
 
-namespace Acw.Core.Acw.Modularity.PlugIns
+namespace Acw.Modularity.PlugIns
 {
     public static class PlugInSourceExtensions
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Acw.Core.Acw.Modularity
+namespace Acw.Modularity
 {
     public class AcwModuleHelper
     {

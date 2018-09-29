@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Reflection;
 
-namespace Acw.Core.Acw.Reflection
+namespace Acw.Reflection
 {
     /// <summary>
     /// Used to get assemblies in the application.

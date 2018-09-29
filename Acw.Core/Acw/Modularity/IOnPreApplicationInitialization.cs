@@ -1,6 +1,6 @@
 ﻿using JetBrains.Annotations;
 
-namespace Acw.Core.Acw.Modularity
+namespace Acw.Modularity
 {
     public interface IOnPreApplicationInitialization
     {

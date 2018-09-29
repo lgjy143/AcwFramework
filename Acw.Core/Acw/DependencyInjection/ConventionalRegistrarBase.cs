@@ -1,10 +1,10 @@
-﻿using Acw.Core.Acw.Reflection;
+﻿using Acw.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
 using System.Reflection;
 
-namespace Acw.Core.Acw.DependencyInjection
+namespace Acw.DependencyInjection
 {
     public abstract class ConventionalRegistrarBase : IConventionalRegistrar
     {

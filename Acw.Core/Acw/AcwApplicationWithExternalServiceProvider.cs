@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Acw.Core.Acw
+namespace Acw
 {
     internal class AcwApplicationWithExternalServiceProvider : AcwApplicationBase, IAcwApplicationWithExternalServiceProvider
     {

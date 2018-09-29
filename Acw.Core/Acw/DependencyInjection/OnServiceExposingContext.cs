@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Acw.Core.Acw.DependencyInjection
+namespace Acw.DependencyInjection
 {
     public class OnServiceExposingContext : IOnServiceExposingContext
     {

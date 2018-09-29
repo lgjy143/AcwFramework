@@ -1,10 +1,10 @@
-﻿using Acw.Core.Acw.Modularity.PlugIns;
+﻿using Acw.Modularity.PlugIns;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Acw.Core.Acw.Modularity
+namespace Acw.Modularity
 {
     public class ModuleLoader : IModuleLoader
     {

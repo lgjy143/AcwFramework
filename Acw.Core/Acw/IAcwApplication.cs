@@ -1,8 +1,8 @@
-﻿using Acw.Core.Acw.Modularity;
+﻿using Acw.Modularity;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Acw.Core.Acw
+namespace Acw
 {
     public interface IAcwApplication : IModuleContainer, IDisposable
     {

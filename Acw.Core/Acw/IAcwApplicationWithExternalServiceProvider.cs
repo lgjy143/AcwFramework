@@ -1,7 +1,7 @@
 ﻿using JetBrains.Annotations;
 using System;
 
-namespace Acw.Core.Acw
+namespace Acw
 {
     public  interface IAcwApplicationWithExternalServiceProvider : IAcwApplication
     {

@@ -1,4 +1,4 @@
-﻿using Acw.Core.Acw.Modularity;
+﻿using Acw.Modularity;
 using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading;
 
-namespace Acw.Core.Acw.Reflection
+namespace Acw.Reflection
 {
     public class AssemblyFinder : IAssemblyFinder
     {
